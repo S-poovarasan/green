@@ -158,7 +158,7 @@ const MasterHeader: React.FC<MasterHeaderProps> = () => {
           </div>
           <img
             src={
-              user?.refUserProfile
+              user?.profileImgFile?.base64Data
                 ? `data:${user?.profileImgFile?.contentType};base64,${user?.profileImgFile?.base64Data}`
                 : DefaultProfile
             }
