@@ -1,0 +1,17 @@
+# Dependency directories
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/.env
+**/.env.local
+**/*.log
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
